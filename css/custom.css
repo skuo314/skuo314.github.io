@@ -109,44 +109,12 @@ width: 50px;
 font-size: 20px;
 }
 
-#features-section {
+#projects-section {
     text-align: center;
-}
-
-.mobile-heading {
-    margin-top: 0;
-    margin-bottom: 40px;
-    text-align: center;
-}
-
-.mobile-feature {
-    margin-bottom: 2%;
-}
-
-.mobile-screenshot {
-    border-radius: 30px;
-    width: 45%;
-    margin-right: 2%;
-    display: inline;
-}
-
-.features-text {
-   height: 503px;
-   display: flex;
-   align-items: center;
 }
 
 .content {
     padding: 100px 0;
-}
-
-.content-2 {
-    background-color: #3f6b93;
-    color: #fff;
-}
-
-.content-3 {
-    margin-bottom: 0;
 }
 
 .login {
@@ -247,22 +215,6 @@ font-size: 20px;
   display: inline-block;
   margin-left: 5px;
   color: black;
-}
-
-.text-primary {
-    color: #3f6b93;
-}
-
-.bg-primary {
-    background-color: #3f6b93;
-}
-
-#center-title {
-    text-align: center;
-}
-
-#team-section {
-    padding: 70px 0;
 }
 
 #presentation-section {
