@@ -103,6 +103,12 @@ header .header-content .header-content-inner p {
     text-align: center;
 }
 
+.aside-1 {
+text-align: left;
+width: 50px;
+font-size: 20px;
+}
+
 #features-section {
     text-align: center;
 }
@@ -147,7 +153,20 @@ header .header-content .header-content-inner p {
     margin-top: 20px;
 }
 
-#techStack-section {
+.link-box {
+  border-color: black;
+  font-size: 14px;
+  padding: 10px;
+  width: 70px;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  display: inline-block;
+  margin-left: 5px;
+  color: black;
+}
+
+#contact-section {
     padding: 70px 0;
     background-color: #3f6b93;
     color: #fff;
