@@ -711,15 +711,15 @@ img::-moz-selection {
 }
 
 .video-sm-1 { 
-  background-image: url('/img/semicolon-techtalk.png');
+  background-image: url('/images/pres-bombanauts.png');
 }
 
 .video-sm-2 {
-  background-image: url('/img/silent-salutations.png');
+  background-image: url('/images/pres-trenchrun.png');
 }
 
 .video-sm-3 {
-  background-image: url('/img/archiver.png');
+  background-image: url('/images/pres-bookshelf.png');
 }
 
 .video-text-box {
