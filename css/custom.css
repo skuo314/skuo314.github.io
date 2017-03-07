@@ -266,7 +266,10 @@ font-size: 20px;
 }
 
 #presentation-section {
-    background-color:  #3f6b93;
+    color: #fff;
+    background-color: #3f6b93;
+    padding: 70px 0;
+    text-align: center;
 }
 
 #github-button {
