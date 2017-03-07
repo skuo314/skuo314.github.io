@@ -98,7 +98,7 @@ header .header-content .header-content-inner p {
 
 #about-section {
 	color: #fff;
-    background-color: rgba(115,116,166,1);
+    background-color: rgb(63, 107, 147);
     padding: 70px 0;
     text-align: center;
 }
@@ -184,7 +184,7 @@ header .header-content .header-content-inner p {
 
 .page-footer .contact {
 	padding: 50px 0;
-	background-color: rgba(115,116,166,1);
+	background-color: rgb(63, 107, 147);
 	color: #fff;
 	}
 
