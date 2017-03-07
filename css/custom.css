@@ -172,6 +172,40 @@ font-size: 20px;
     color: #fff;
 }
 
+.wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;  
+  
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  
+  font-weight: bold;
+  text-align: center;
+
+  padding-left: 25px;
+  padding-right: 25px;
+
+  > * {
+    padding: 10px;
+    flex: 1 100%;
+  }
+
+  .main {
+    text-align: left;
+    font-weight: 300;
+    font-size: 18px;
+  }
+
+  .aside-1 {
+    text-align: left;
+    width: 50px;
+    font-size: 20px;
+  }
+}
+
 .flex-container {
   padding: 0;
   margin: 0;
@@ -186,6 +220,11 @@ font-size: 20px;
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
   position: relative;
+}
+
+.spacer {
+  padding-top: 85px;
+  padding-bottom: 40px;
 }
 
 .spacer-sm  {
