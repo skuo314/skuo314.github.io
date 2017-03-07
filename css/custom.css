@@ -559,6 +559,10 @@ img::-moz-selection {
     margin-right: 2%;
 }
 
+.left {
+  text-align: left;
+}
+
 .bold {
   font-weight: 400;
 }
