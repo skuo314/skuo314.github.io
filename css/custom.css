@@ -662,3 +662,30 @@ img::-moz-selection {
   justify-content: space-around;
 }
 
+.no-margin{
+    margin-top: 0;
+}
+
+.link-box-resume {
+  border-color: black;
+  font-size: 18px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  display: inline-block;
+  margin-left: 5px;
+  color: black;
+}
+
+@media( min-width: 800px ) {
+  .link-box-resume:hover {
+    border-color: black;
+    background-color:black; 
+    color: white;
+    transition: 0.3s all;
+  }
+}
+
+
