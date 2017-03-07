@@ -608,3 +608,30 @@ img::-moz-selection {
 
 }
 
+.video-lg {
+  width: 442px;
+  height: 235px;
+  max-width: 80vw;
+  max-height: 53.3vw;
+  border: solid;
+  border-color: rgb(237, 238, 239);
+  border-width: 3px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.video-lg-1 {
+  background-image: url("/images/bombanauts.png");
+}
+
+.project-head {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.main-text-project {
+  font-weight: 300;
+  font-size: 16px;
+}
+
