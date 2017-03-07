@@ -265,6 +265,10 @@ font-size: 20px;
     padding: 70px 0;
 }
 
+#presentation-section {
+    background-color:  #3f6b93;
+}
+
 #github-button {
     margin: 10px;
 }
@@ -687,4 +691,71 @@ img::-moz-selection {
   }
 }
 
+
+.presentation-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.presentation-link .spacer-sm {
+  width: 100%;
+}
+
+.video-sm {
+  width: 330px;
+  height: 186px;
+  line-height: 150px;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+.video-sm-1 { 
+  background-image: url('/img/semicolon-techtalk.png');
+}
+
+.video-sm-2 {
+  background-image: url('/img/silent-salutations.png');
+}
+
+.video-sm-3 {
+  background-image: url('/img/archiver.png');
+}
+
+.video-text-box {
+  width: 330px;
+  height: 100px;
+  background-color: white;
+  text-align: center;
+  padding: 10px 0 10px 0;
+}
+
+.grey-section {
+  background-color: rgb(237, 238, 239);
+}
+
+.video-text-sm {
+  font-size: 12px;
+}
+
+.video-text-title {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+
+.presentation-border {
+  border: solid;
+  border-color: black;
+  border-width: 2px;
+  margin-top: 20px
+}
+
+.text-box{
+  margin: 10px 20px 10px 20px;
+}
+
+.video-text-title:hover {
+  color: gray;
+}
 
