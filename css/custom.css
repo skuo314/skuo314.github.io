@@ -680,6 +680,7 @@ img::-moz-selection {
   display: inline-block;
   margin-left: 5px;
   color: black;
+  background-color: white;
 }
 
 @media( min-width: 800px ) {
