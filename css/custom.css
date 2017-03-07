@@ -559,6 +559,14 @@ img::-moz-selection {
     margin-right: 2%;
 }
 
+.bold {
+  font-weight: 400;
+}
+
+.about-top-spacer {
+  padding: 20px 0 0 0; 
+}
+
 @media all and (min-width: 600px) {
   .aside { flex: 1 auto; }
 }
