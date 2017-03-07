@@ -683,6 +683,20 @@ img::-moz-selection {
   background-color: white;
 }
 
+.link-box-contact {
+  border-color: white;
+  font-size: 18px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  display: inline-block;
+  margin-left: 5px;
+  color: black;
+  background-color: white;
+}
+
 @media( min-width: 800px ) {
   .link-box-resume:hover {
     border-color: black;
