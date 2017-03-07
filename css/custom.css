@@ -541,3 +541,53 @@ img::-moz-selection {
 .how-works-button {
     margin-right: 2%;
 }
+
+@media all and (min-width: 600px) {
+  .aside { flex: 1 auto; }
+}
+
+@media(min-width: 640px) {
+    .column-2 {
+        width: 50%;
+        display: inline-block;
+    }
+    .column-flex {
+        display: flex;
+    }
+}
+
+@media all and (min-width: 800px) {
+  .main    { 
+      flex: 2 0px;
+      order: 2;
+  }
+  .aside-1 { 
+      order: 1; 
+      padding-left: 25px;
+  } 
+  .aside-2 { order: 3; }
+  .footer  { order: 4; }
+  .video-lg {
+      width: 30vw;
+      height: 20vw;
+      min-width: 300px;
+      min-height: 200px;
+  }
+
+  .link-box:hover {
+    border-color: black;
+    background-color:black; 
+    font-size: 14px;
+    padding: 10px;
+    width: 70px;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    display: inline-block;
+    margin-left: 5px;
+    color: white;
+    transition: 0.3s all;
+  }
+
+}
+
